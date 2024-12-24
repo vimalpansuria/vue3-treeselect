@@ -6592,7 +6592,7 @@ var instanceId = 0;
       }
       this.$emit('search-change', this.trigger.searchQuery, this.getInstanceId());
     },
-    value: function value() {
+    modelValue: function modelValue() {
       var nodeIdsFromValue = this.extractCheckedNodeIdsFromValue();
       var hasChanged = quickDiff(nodeIdsFromValue, this.internalValue);
       if (hasChanged) this.fixSelectedNodeIds(nodeIdsFromValue);

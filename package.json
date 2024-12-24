@@ -1,10 +1,10 @@
 {
-  "name": "@bosquig/vue3-treeselect",
+  "name": "@vimalpansuria/vue3-treeselect",
   "version": "0.1.5",
   "description": "Tree select hierarchical component for vue 3 (next)",
   "main": "dist/vue3-treeselect.common.js",
   "unpkg": "dist/vue3-treeselect.umd.js",
-  "author": "bosquig",
+  "author": "vimalpansuria",
   "scripts": {
     "build": "vue-cli-service build --target lib --name vue3-treeselect ./src/index.js && webpack --env.production",
     "serve": "webpack --env.development",
